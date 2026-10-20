@@ -127,3 +127,13 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+JAZZMIN_SETTINGS = {
+    "site_title": "Lotnictwo Admin",
+    "site_header": "Mój własny panel",
+    "site_brand": "Lotnictwo",
+    "welcome_sign": "Witaj w panelu zarządzania lotnictwem",
+    "copyright": "Lotnictwo",
+
+    "show_ui_builder": True,
+}
